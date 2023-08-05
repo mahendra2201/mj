@@ -1,0 +1,80 @@
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+/* Navbar styles */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+/* Container styles */
+.container {
+  margin-top: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #343a40;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Container styles */
+.container {
+  margin-top: 50px; /* Adjust the margin-top value based on your navbar height */
+  margin-bottom: 50px; /* Adjust the margin-bottom value based on your footer height */
+  padding-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    margin-top: 60px; /* Adjust the margin-top value for small screens */
+  }
+}

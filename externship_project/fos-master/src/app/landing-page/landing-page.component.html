@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HungryHub</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom styles here */
+  </style>
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h1>Welcome to our HungryHub</h1>
+          <p>Experience the best culinary delights in town</p>
+          <a routerLink="/restaurants" class="btn btn-primary">View Restaurants</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://source.unsplash.com/random/1920x1080/?restaurants'" alt="Restaurant Image" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://source.unsplash.com/random/1920x1080/?about" alt="About Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+          <h2>About Us</h2>
+          <p>Welcome to HungryHub, where you can experience the best culinary delights in town. Our mission is to provide an exceptional dining experience that satisfies your taste buds and leaves you craving for more.</p>
+          <p>At HungryHub, we take pride in offering a diverse menu crafted with passion and expertise. From mouthwatering appetizers to delectable main courses and delightful desserts, our talented chefs ensure that each dish is prepared with the finest ingredients and utmost care.</p>
+          <p>Whether you are a food enthusiast, a connoisseur, or simply looking for a memorable dining experience, HungryHub is the perfect destination. Our cozy ambiance, attentive staff, and commitment to culinary excellence create an atmosphere that will make you feel right at home.</p>
+          <p>Visit HungryHub today and embark on a culinary journey that will tantalize your taste buds and leave you with unforgettable memories. We look forward to serving you!</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="row">
+        <div class="col-lg-4" *ngFor="let m of menus">
+          <div class="card">
+            <img [src]="'https://source.unsplash.com/random/1920x1080/?food,' + m._id" class="card-img-top" [alt]="'Menu Item ' + m._id">
+            <div class="card-body">
+              <!-- <h5 class="card-title">{{ m.name }}</h5> -->
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a routerLink="restaurants" class="btn btn-primary">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <h3>Visit Us</h3>
+          <p>123 Restaurant Street</p>
+          <p>City, State, ZIP Code</p>
+          <h3>Contact Information</h3>
+          <p>Email: info@restaurant.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* Custom CSS Styles for Restaurant App Landing Page */
+
+/* Hero Section */
+.hero {
+
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+  font-size: 16px;
+  padding: 12px 32px;
+}
+
+/* About Section */
+.about {
+  padding: 100px 0;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Menu Section */
+.menu {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.menu h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.menu .card {
+  margin-bottom: 30px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 100px 0;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact form .form-control {
+  margin-bottom: 20px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  font-size: 16px;
+  padding: 12px 32px;
+}

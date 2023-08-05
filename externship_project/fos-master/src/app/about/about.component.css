@@ -1,0 +1,43 @@
+/* Custom CSS for About Section */
+.about {
+  padding: 80px 0;
+  background-color: gold;
+
+}
+
+.about h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: purple;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: aqua;
+  margin-bottom: 20px;
+}
+
+.about img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .about h2 {
+    font-size: 28px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}

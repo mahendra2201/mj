@@ -1,0 +1,53 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: crimson;
+
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: lightskyblue;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container .form-group {
+  margin-bottom: 40px;
+}
+
+.login-container label {
+  font-weight: bold;
+}
+
+.login-container input,
+.login-container select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: aqua;
+  color: purple;
+  cursor: pointer;
+}
+
+.login-container button[type="submit"]:hover {
+  background-color: aquamarine;
+}
+h1
+{
+  background-color: gold;
+  color: purple
+}
